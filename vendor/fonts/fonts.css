@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("interregular.woff2?v=3.19") format("woff2"),
+       url("interregular.woff?v=3.19") format("woff");
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("interbold.woff2?v=3.19") format("woff2"),
+       url("interbold.woff?v=3.19") format("woff");
+}
+
+@font-face {
+  font-family: 'EB Garamond';
+  font-style:  normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("ebgaramondregular.woff2?v=3.19") format("woff2"),
+       url("ebgaramondregular.woff?v=3.19") format("woff");
+}
+
+@font-face {
+  font-family: 'EB Garamond';
+  font-style:  normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("ebgaramondmedium.woff2?v=3.19") format("woff2"),
+       url("ebgaramondmedium.woff?v=3.19") format("woff");
+}
