@@ -1,0 +1,59 @@
+.cover {
+    width: 100%;
+    background-color: #000;
+}
+
+.cover__container {
+    position: relative;
+    margin-top: 7px;
+    margin-left: 20px;
+}
+
+.cover__title {
+    margin: 23px 0 0;
+    padding: 0;
+    width: 340px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cover__text {
+    font-family: 'EB Garamond', "Arial", "Helvetica", sans-serif;
+    display: block;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 100%;
+    color: #FFF;
+    margin: 0;
+    padding: 0;
+}
+
+
+.cover__text-center {
+ margin-left: 46px;    
+}
+
+.cover__text-right {
+    align-self: end;
+    margin-right: 24px;
+}
+
+.cover__figure {
+    position: absolute;
+    top: 21px;
+    width: 339px;
+    height: 198px;
+}
+
+.cover__figure_circle {
+    margin-top: 78px;
+    border: 1px solid #FEE42A;
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+}
+
+.cover__figure_triangle {
+
+}

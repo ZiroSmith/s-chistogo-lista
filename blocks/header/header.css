@@ -1,0 +1,49 @@
+.header {
+    width: 100%;
+    max-width: 1280px;
+    background-color: #000;
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.header__logo {
+    width: 78px;
+    margin-left: 20px;
+}
+
+.header__menu {
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header__menu_link {
+    box-sizing: content-box;
+    cursor: pointer;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFF;
+    text-decoration: none;
+    border-bottom: 1px solid #FFF;
+    margin: 0 0 12px;
+    padding: 0;
+}
+
+.header__menu_link:hover {
+    opacity: 0.7;
+    transition: 0.3s;
+}
+
+.header__menu_link-active {
+    cursor: auto;
+    font-weight: 600;
+    border-bottom: 0;
+}
+
+.header__menu_link-active:hover {
+    opacity: 1;
+}
+
