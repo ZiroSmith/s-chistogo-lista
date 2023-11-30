@@ -20,7 +20,7 @@
 }
 
 .header__menu_link {
-    box-sizing: content-box;
+    display: inline-block;
     cursor: pointer;
     font-style: normal;
     font-weight: 400;
@@ -46,4 +46,3 @@
 .header__menu_link-active:hover {
     opacity: 1;
 }
-
