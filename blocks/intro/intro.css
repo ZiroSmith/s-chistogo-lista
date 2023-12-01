@@ -1,9 +1,45 @@
 .intro {
-    font-family: 'EB Garamond', "Arial", "Helvetica", sans-serif;
+    width: 100%;
+    margin: 24px 0 40px;
+}
+
+.intro__title {
+    display: flex;
+    justify-content: space-between;
+    margin: 34px 20px 0;
+}
+
+.intro__title_text {
+    font-family: 'Inter', "Arial", "Helvetica", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    color: #FFF;
+    width: 203px;
+    margin: 0;
+    padding: 0;
+}
+
+.intro__title_date {
+    font-family: 'Inter', "Arial", "Helvetica", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    color: #FFF;
+    margin: 0;
+    padding: 0;
+}
+
+.intro__text {
+    font-family: 'Inter', "Arial", "Helvetica", sans-serif;
     display: block;
     font-style: normal;
     font-weight: 400;
+    font-size: 16px;
+    line-height: 21.6px;
     color: #FFF;
-    margin: 0;
+    margin: 24px 20px 0;
     padding: 0;
 }
