@@ -39,7 +39,7 @@
 .reasons__list {
     max-width: 320px;
     margin: 32px auto 0;
-    padding: 0;
+    padding: 0 0 22px;
 }
 
 .reasons__item {
@@ -47,12 +47,13 @@
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 21.6px;
-    margin: 0;
+    line-height: 21.5px;
+    margin: 0 0 17px 17px;
     padding: 0;
+    width: 301px;
 }
 
-.reasons__item_title {
+.reasons__item_bold {
     font-weight: 600;
     margin: 0;
     padding: 0;
