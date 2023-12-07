@@ -1,33 +1,33 @@
 .footer {
-    display: flex;
-    justify-content: space-between;
-    margin: 60px 0 22px;
-    border-top: 1px solid #FEE42A;
+  display: flex;
+  justify-content: space-between;
+  margin: 60px 0 22px;
+  border-top: 1px solid #fee42a;
 }
 
 .footer__logo {
-    margin-left: 20px;
-    padding: 20px 0 0;
+  margin-left: 20px;
+  padding: 20px 0 0;
 }
 
 .footer__navigation {
-    padding: 20px 10px 0 0;
+  padding: 20px 10px 0 0;
 }
 
 .footer__link {
-    display: inline-block;
-    cursor: pointer;
-    font-family: 'Inter', "Arial", "Helvetica", sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    color: #FFF;
-    text-decoration: none;
-    margin: 0 12px 0 0;
-    padding: 0;
+  display: inline-block;
+  cursor: pointer;
+  font-family: "Inter", "Arial", "Helvetica", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #fff;
+  text-decoration: none;
+  margin: 0 12px 0 0;
+  padding: 0;
 }
 
 .footer__link:hover {
-    opacity: 0.7;
-    transition: 0.3s;
+  opacity: 0.7;
+  transition: 0.3s;
 }
